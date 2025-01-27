@@ -6,6 +6,7 @@ import Tabs from './ui/Tabs/Tabs';
 import Autocomplete from './ui/Autocomplete/Autocomplete';
 import Popup from './ui/Popup/Popup';
 import useNotification from './hooks/useNotification';
+import Notes from './ui/Drag-Drop/notes';
 
 function App() {
 
@@ -61,6 +62,9 @@ function App() {
           message:'Hello Error',
           duration:5000
          })}>Fire Error notification</button>
+
+         {/* <button onClick={}>Notes Screen</button> */}
+         <Notes />
         
 
 
